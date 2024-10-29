@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Shape -->
+    <path
+        android:pathData="M54,4 C82,12 104,36 104,72 C104,100 72,104 54,104 C26,104 4,80 4,54 C4,36 30,12 54,4 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#6A0DAD"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Cross Shape -->
+    <path
+        android:pathData="M54,34 L62,34 L62,54 L82,54 L82,62 L62,62 L62,82 L54,82 L54,62 L34,62 L34,54 L54,54 L54,34 Z"
+        android:fillColor="#6A0DAD" />
+
+    <!-- Text Outline Path (Example, not detailed) -->
+    <!-- Text may require individual paths for each letter for accuracy in vector -->
+    <path
+        android:pathData="M10,15 L30,15 M80,15 L100,15 M10,90 L30,90 M80,90 L100,90"
+        android:strokeWidth="1"
+        android:strokeColor="#6A0DAD" />
+
+    <!-- Gradient Example (if applicable to certain areas) -->
+    <path
+        android:pathData="M50,50 L60,60"
+        android:fillColor="#FFFFFF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42.9492"
+                android:startY="49.59793"
+                android:endX="85.84757"
+                android:endY="92.4963"
+                android:type="linear">
+                <item android:color="#6A0DAD" android:offset="0.0" />
+                <item android:color="#FFFFFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>
